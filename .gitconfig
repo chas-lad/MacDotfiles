@@ -1,6 +1,21 @@
 # This is Git's per-user configuration file.
 [user]
 	name = Chas Ladhar
+	# Using github 'no-reply' email (don't want to share personal email in public repo)
 	email = 137926064+chas-lad@users.noreply.github.com
+
+[core]
+	# Set VSCode as the default editor with wait option
+	editor = code --wait
+	# Ensure consistent line endings on Unix and macOS
+	autocrlf = input
+
+[diff]
+	# Use VSCode as the default diff tool
+    tool = vscode
+
+[color]
+	# Enable automatic colorization of Git output
+    ui = auto
 
 
