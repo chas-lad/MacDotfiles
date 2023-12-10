@@ -1,0 +1,12 @@
+# This is Git's per-user configuration file.
+[user]
+	name = ChasLadhar
+	email = sc20csl@leeds.ac.uk
+# Please adapt and uncomment the following lines:
+#	name = Chas Ladhar
+#	email = chasladhar@Chass-MacBook-Pro.local
+[http]
+	postBuffer = 157286400
+[github]
+	user = ChasLadhar
+	token = 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
